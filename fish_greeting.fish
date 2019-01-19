@@ -14,7 +14,7 @@ function fish_greeting
       : .~.'~'.~. :   "(off)"  |_| |__,|___|  _|___|___|_| |_| |_  |  |  _|_|"(rasp)"
      ~ (   ) (   ) ~  "(off)"              |_|                 |___|  |_|    "(rasp)"
     ( : '~'.~.'~' : )
-     ~ .~ (   ) ~. ~  "(off)(bold)"  "(hostname)(hostname -I | awk '{print $1}')""(rasp)"
+     ~ .~ (   ) ~. ~  "(off)(bold)"  "(hostname)" ("(hostname -I | awk '{print $1}')")"(rasp)"
       (  : '~' :  )    
        '~ .~~~. ~'    "(off)(leaf)"  System:"(off)" "(uname -osrmp)""(rasp)"
            '~'        "(off)(leaf)"  Uptime:"(off)" "(uptime -p)""(rasp)"
