@@ -30,14 +30,14 @@ function fish_right_prompt
       else
         echo ""
       end
-    end)(fst)(git::branch_name)(snd)(begin
+    end)(leaf)(git::branch_name)(snd)(begin
       set -l count (git::get_ahead_count)
         if test $count -eq 0
           echo ""
         else
-          echo (trd)"+"(fst)$count
+          echo (trd)"+"(leaf)$count
         end
     end)(snd)") "(off)
   end
-  printf (dim)(date +%H(fst):(dim)%M(fst):(dim)%S)(off)" "
+  printf (dim)(date +%H(leaf):(dim)%M(leaf):(dim)%S)(off)" "
 end
