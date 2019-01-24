@@ -1,10 +1,4 @@
-function rasp; set_color -o c51a4a; end
-function leaf; set_color -o 6cc04a; end
-function snd; set_color -o 51a4dc; end # blue
-function trd; set_color -o f06; end # pink ?
-function dim; set_color    666; end # grey
-function off; set_color normal; end # off
-function bold; set_color -o fff; end # off
+__piman_theme
 
 function fish_greeting
   echo ""(leaf)"
